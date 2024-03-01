@@ -1,4 +1,3 @@
-// pull_request_template.md
 ## Description ##
 
 DESCRIBE YOUR PULL REQUEST'S CHANGES.  **REPLACE THIS TEXT**.
