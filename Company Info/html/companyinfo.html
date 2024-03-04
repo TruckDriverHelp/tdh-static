@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/html/css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Your Webpage Title</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <img src="/html/assets/logo.png" alt="Logo" class="nav-logo">
+            <button class="categories-btn"><img width="20" height="20"
+                    src="https://img.icons8.com/material-rounded/24/3c3c77/grid-2.png" alt="grid-2" class="grid" />
+                Categories</button>
+            <input type="text" id="search-box" class="search-box" placeholder="Search Jobs, Services or Products">
+            <select id="select-resources" class="select-resources">Resources
+                <option value="">Resources</option>
+            </select>
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign Up</button>
+            <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/3c3c77/globe--v1.png"
+                alt="globe--v1" class="globe" />
+            <hr>
+        </div>
+    </header>
+
+    <div class="go-back">
+        <a href="back" class="back"><img width="16" height="16" src="https://img.icons8.com/small/16/3c3c77/long-arrow-left.png" alt="long-arrow-left" class="arrow"/>Go back</a>
+        <img width="14" height="14" src="https://img.icons8.com/material-rounded/24/cccccc/full-stop.png" alt="full-stop"/>
+        <img width="34" height="34" src="https://img.icons8.com/glyph-neue/64/3c3c77/1-circle.png" alt="1-circle"/>
+        <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/cccccc/horizontal-line.png" alt="horizontal-line"/>
+        <img width="34" height="34" src="https://img.icons8.com/glyph-neue/64/cccccc/2-circle.png" alt="2-circle"/>
+        <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/cccccc/horizontal-line.png" alt="horizontal-line"/>
+        <img width="34" height="34" src="https://img.icons8.com/glyph-neue/64/cccccc/3-circle.png" alt="3-circle"/>
+    </div>
+    
+    <div class="check fas fa-check"></div>
+    <div class="details-container">
+        <p class="details-title">Step 1 - Company information</p>
+        <div class="input-box">
+            <div class="inputs-with-labels">
+                <label for="company-name" class="title">Company Name</label>
+                <input type="text-box" placeholder="" id="company-name" class="text-box" required>
+            </div>
+            <div class="inputs-with-labels">
+                <label for="phone-number" class="title">Phone Number</label>
+                <input type="text-box" placeholder="" id="phone-number" class="text-box" required>
+            </div>
+        </div>
+
+        <div class="about-company">
+            <div class="company-details-labels">
+                <label for="about-company" class="title">About your company</label>
+                <textarea id="about-company" class="about-company" name="about-company" rows="5" cols="95" required>
+
+                </textarea>
+            </div>
+        </div>
+        <p class="details-title">HQ Location</p>
+        <div class="state-city-select">
+
+            <div class="select-with-labels">
+                <span class="title">State</span>
+                <select id="state">
+                    <option>Select State</option>
+                </select>
+            </div>
+            <div class="select-with-labels">
+                <span class="title">City</span>
+                <select id="city">
+                    <option>Select City</option>
+                </select>
+            </div>
+        </div>
+        <p class="details-title">Benefits</p>
+        <div class="benefits-details">
+            <div class="radios-with-labels">
+                <label class="insurance"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/737373/hospital-3.png" alt="hospital-3" clas="hospital"/> Health Insurance
+                    <input type="radio" id="benefits" name="dot-1">
+                </label>
+            </div>
+            <div class="radios-with-labels">
+                <label class="dispatcher"><img width="24" height="24" src="https://img.icons8.com/material-sharp/24/737373/clock.png" alt="clock" class="clock"/>Around the clock dispatch
+                    <input type="radio" id="benefit" name="dot-2">
+                </label>
+            </div>
+        </div>
+        <p class="details-title"> Company logo </p>
+
+        <div class="logo-container">
+            <div class="upload-details">
+                <span class="upload-logo">Upload your company logo</span>
+                <br>
+                <span class="reccommended-size">recommended size in px (512 x 512)</span>
+                <button class="button-upload">Upload</button>
+            </div>
+        </div>
+        <hr>
+        <div class="continue-button">
+            <button class="button-continue">Continue</button>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-body">
+                <div class="footer-social">
+                    <div class="footer-icon">
+                        <img id="footer-logo" src="/html/assets/logo-white.png">
+                    </div>
+                    <div class="footer-text">
+                        <div class="footer-description">Lorem ipsum dolor sit amet consectetur. Odio cursus elit
+                            nisl auctor vel
+                            eu.
+                            Aliquet varius
+                            semper facilisi tellus vulputate sit metus nunc. Urna pulvinar.</div>
+                    </div>
+                    <div class="footer-social-buttons">
+                        <img class="social-button" src="/html/assets/facebook.png" alt="facebook" width="25"
+                            height="25">
+                        <img class="social-button" src="/html/assets/telegram.png" alt="telegram" width="25"
+                            height="25">
+                        <img class="social-button" src="/html/assets/twitter.png" alt="twitter" width="25" height="25">
+                        <img class="social-button" src="/html/assets/youtube.png" alt="youtube" width="25" height="25">
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-group">
+                        <p class="footer-links-group-header">Category</p>
+                        <a class="footer-links-group-link" href="link1">Link1</a>
+                        <a class="footer-links-group-link" href="link2">Link2</a>
+                        <a class="footer-links-group-link" href="link3">Link3</a>
+                        <a class="footer-links-group-link" href="link4">Link4</a>
+                        <a class="footer-links-group-link" href="link4">Link5</a>
+                    </div>
+                    <div class="footer-links-group">
+                        <p class="footer-links-group-header">Category</p>
+                        <a class="footer-links-group-link" href="link1">Link1</a>
+                        <a class="footer-links-group-link" href="link2">Link2</a>
+                        <a class="footer-links-group-link" href="link3">Link3</a>
+                        <a class="footer-links-group-link" href="link4">Link4</a>
+                        <a class="footer-links-group-link" href="link4">Link5</a>
+                    </div>
+                    <div class="footer-links-group">
+                        <p class="footer-links-group-header">Category</p>
+                        <a class="footer-links-group-link" href="link1">Link1</a>
+                        <a class="footer-links-group-link" href="link2">Link2</a>
+                        <a class="footer-links-group-link" href="link3">Link3</a>
+                        <a class="footer-links-group-link" href="link4">Link4</a>
+                        <a class="footer-links-group-link" href="link4">Link5</a>
+                    </div>
+                    <div class="footer-links-group">
+                        <p class="footer-links-group-header">Category</p>
+                        <a class="footer-links-group-link" href="link1">Link1</a>
+                        <a class="footer-links-group-link" href="link2">Link2</a>
+                        <a class="footer-links-group-link" href="link3">Link3</a>
+                        <a class="footer-links-group-link" href="link4">Link4</a>
+                        <a class="footer-links-group-link" href="link4">Link5</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-copyright">
+                <div class="copy">&copy; 2023 TruckDriver.Help. All rights reserved.</div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
