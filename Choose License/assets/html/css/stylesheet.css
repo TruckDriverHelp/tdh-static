@@ -1,0 +1,392 @@
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  width: 100;
+}
+
+.nav-logo {
+margin-left: 10px;
+
+}
+
+.grid {
+  vertical-align: middle;
+}
+
+.categories-btn {
+  background-color: #E5E4F5;
+  color: #333;
+  font-size: 16px;
+  width: 133px;
+  height: 44px;
+  margin-left: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.search-box {
+  width: 557px;
+  height: 30px;
+  font-size: 16px;
+  color: #A7A7A7;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #A7A7A7
+}
+
+.select {
+  color: #3C3C77;
+  font-size: 18px;
+  width: 125px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.login-btn {
+  background: #FFFFFF;
+  color: #3C3C77;
+  width: 118px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border-color: #3C3C77;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: #3C3C77;
+  color: #FFFFFF;
+  width: 118px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.globe {
+  margin: 0 auto;
+  padding: 4px 9px;
+  border-radius: 8px;
+  border: solid;
+  border-color: #3C3C77;
+  cursor: pointer;
+  position: relative;
+  top: 15px;
+  width: 28px;
+  height: 28px;
+
+}
+
+.go-back {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 75px;
+}
+
+.arrow {
+
+}
+
+.back {
+  color: #3C3C77;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+  text-decoration: none;
+  margin-left: 10px;
+
+}
+
+h1 {
+  justify-content: center;
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  text-decoration: underline;
+}
+
+h2,
+h3 {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 25px;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+h4 {
+  justify-content: center;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.5rem;
+}
+
+
+.publish {
+  border: solid #ccc;
+  margin: 50px 75px;
+  overflow: hidden;
+
+}
+
+.main-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-right: 250px;
+  padding-left: 250px;
+  height: 700px;
+}
+
+.CDL {
+  width: 350px;
+  height: 400px;
+  background: #d4d4d4;
+  color: #333;
+  border-radius: 8px;
+  word-wrap: break-word;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+
+}
+
+.cdl-hire-drivers {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  word-wrap: break-word;
+  text-decoration: underline;
+  color: 	#696969;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+}
+
+.cdl-image {
+  margin-top: 10px;
+}
+
+.hire-qualified-drivers {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  word-wrap: break-word;
+  text-decoration: underline;
+  color: 	#696969;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.X {
+  color: red;
+  font-family: monospace;
+  position: absolute;
+  top: 330px;
+  left: 645px;
+  width: 500px;
+  height: 500px;
+  font-size: 100px;
+
+
+}
+
+.select-has-cdl-button {
+  width: 208px;
+  height: 44px;
+  color: #fff;
+  background: linear-gradient(95deg, #3C3C77 0%, #4F4F9B 100%);
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+
+}
+
+.no-cdl {
+  width: 350px;
+  height: 400px;
+  background: #d4d4d4;
+  border-radius: 8px;
+  word-wrap: break-word;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+
+}
+
+.select-no-cdl-button {
+  width: 208px;
+  height: 44px;
+  color: #fff;
+  background: linear-gradient(95deg, #3C3C77 0%, #4F4F9B 100%);
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  margin-top: 28px;
+
+}
+
+
+
+/* Footer styles */
+footer {
+  background: linear-gradient(95deg, #3C3C77 0%, #4F4F9B 100%);
+  color: #fff;
+  width: 100vw !important;
+}
+
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  /* text-decoration: none !important; */
+}
+
+.footer-icon {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  padding-bottom: 50px;
+}
+
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+
+.footer-social-buttons {
+
+  margin-top: 25px;
+  margin-right: 132px;
+
+}
+
+
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  width: 50%;
+  text-decoration: none;
+
+}
+
+.footer-links-group-header {
+  padding-bottom: 25px;
+}
+
+.footer-links-group-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+}
+
+.footer-links-group-link-two {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+}
+
+.footer-links-group-link-three {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+}
+
+.footer-links-group-link-four {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+}
+
+
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
