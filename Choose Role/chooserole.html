@@ -4,47 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheet.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>Your Webpage Title</title>
 </head>
 
 <body>
-    <header>
-        <div class="nav">
-            <img src="/assets/logo1.png" alt="Logo" class="nav-logo">
-            <button class="categories-btn"><img width="20" height="20" src="https://img.icons8.com/material-rounded/24/3c3c77/grid-2.png" alt="grid-2" class="grid"/> Categories</button>
+
+    <nav class="nav">
+        <div class="nav-container">
+            <img src="assets/logo1.png" alt="Logo" class="nav-logo">
+            <button class="categories-btn"><img width="20" height="20" src="https://img.icons8.com/material-rounded/24/3c3c77/grid-2.png" alt="grid-2" class="grid"/>Categories</button>
             <input type="text" id="search-box" class="search-box" placeholder="Search Jobs, Services or Products">
-            <select id="select" class="select">Resources
+            <select id="nav-resources-select" class="select">Resources
                 <option value="">Resources</option>
             </select>
             <button class="login-btn">Login</button>
             <button class="signup-btn">Sign Up</button>
-            <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/3c3c77/globe--v1.png" alt="globe--v1" class="globe"/>
-            <hr>
+            <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/3c3c77/globe--v1.png" alt="Select a language" class="lang"/>
         </div>
-    </header>
+    </nav>
 
-    <a href="go-back" class="go-back"><img width="16" height="16" src="https://img.icons8.com/small/16/3c3c77/long-arrow-left.png" alt="long-arrow-left" class="arrow"/>Go back</a>
+    <div class="main-container-top">
+        <img width="16" height="16" src="https://img.icons8.com/small/16/3c3c77/long-arrow-left.png" alt="long-arrow-left" class="arrow"/>
+        <a href="go-back" class="go-back">Go back</a>
+    </div>
     <div >
         <div class="post-job">
 
             <h1>Post a job as</h1>
 
             <div class="main-container">
-                <div class="registered">
-                    <img src="/assets/logo2.png" alt="Logo" class="white-logo">
-                    <h2>Registered Company</h2>
-                    <p class="register">Register now for <b>free</b><br> and enjoy member perks</p>
-                    <button class="register-button">Register Now</button>
-                </div>
+                <div>
+                    <div class="registered">
+                        <img src="assets/logo2.png" alt="Logo" class="white-logo">
+                        <h2>Registered Company</h2>
+                        <p class="register">Register now for <b>free</b><br> and enjoy member perks</p>
+                        <button class="register-button">Register Now</button>
+                    </div>
 
-                <div class="have-an-account">
-                    <img src="/assets/logo1.png" alt="Logo" class="purple-logo">
-                    <h3>Have an account?</h3>
-                    <div class="enjoy">Enjoy additional benefits when<br> posting as member</div>
-                    <button class="post-job-account-button">Post a Job</button>
+                    <div class="have-an-account">
+                        <img src="assets/logo1.png" alt="Logo" class="purple-logo">
+                        <h3>Have an account?</h3>
+                        <div class="enjoy">Enjoy additional benefits when<br> posting as member</div>
+                        <button class="post-job-account-button">Post a Job</button>
 
+                    </div>
                 </div>
             </div>
             <div class="or">Or</div>
@@ -61,8 +66,8 @@
         <div class="footer">
             <div class="footer-body">
                 <div class="footer-social">
-                    <div class="footer-icon">
-                        <img id="footer-logo" src="/assets/logo2.png">
+                    <div class="footer-logo">
+                        <img id="footer-logo" src="assets/logo2.png">
                     </div>
                     <div class="footer-text">
                         <div class="footer-description">Lorem ipsum dolor sit amet consectetur. Odio cursus elit
@@ -72,13 +77,13 @@
                             semper facilisi tellus vulputate sit metus nunc. Urna pulvinar.</div>
                     </div>
                     <div class="footer-social-buttons">
-                        <img class="social-button" src="/assets/facebook.png" alt="facebook" width="25"
+                        <img class="social-button" src="assets/facebook.png" alt="facebook" width="25"
                             height="25">
-                        <img class="social-button" src="/assets/telegram.png" alt="telegram" width="25"
+                        <img class="social-button" src="assets/telegram.png" alt="telegram" width="25"
                             height="25">
-                        <img class="social-button" src="/assets/twitter.png" alt="twitter" width="25"
+                        <img class="social-button" src="assets/twitter.png" alt="twitter" width="25"
                             height="25">
-                        <img class="social-button" src="/assets/youtube.png" alt="youtube" width="25"
+                        <img class="social-button" src="assets/youtube.png" alt="youtube" width="25"
                             height="25">
                     </div>
                 </div>
