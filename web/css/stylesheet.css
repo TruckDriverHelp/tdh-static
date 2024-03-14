@@ -110,6 +110,11 @@ section {
   display: block;
 }
 
+* {
+  letter-spacing: -0.02rem;
+  box-sizing: border-box;
+}
+
 body {
   line-height: 1;
   background-color: #EDEDED;
@@ -138,6 +143,10 @@ table {
   border-spacing: 0;
 }
 
+svg {
+  fill: red; /* Change 'red' to whatever color you prefer */
+}
+
 body {
   font-family: Inter;
   margin: 0;
@@ -147,6 +156,8 @@ body {
 header {
   width: 100;
 }
+
+
 
 /* Nav */
 nav {
@@ -264,10 +275,13 @@ nav {
   height: 35px;
 }
 
+.container {
+  width: 1124px;
+  margin: 0 auto;
+}
 
 .main-container-top {
-  width: 1124px;
-  margin: 35px auto;
+  margin-top: 35px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -464,11 +478,261 @@ h4 {
   align-items: center;
 }
 
+/* Compnay Info */
+
+.flex-align-center {
+  align-items: center;
+}
+
+.go-back-container {
+  margin-right: 20px;
+}
+
+.go-back-container > img {
+  margin-right: 8px
+}
+
+.go-back-container > a {
+  color: #3C3C77;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background: #C8C8C8;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 5px;
+  margin-right: 20px;
+}
+
+.number-circle {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  border: 2px solid #C8C8C8;
+  text-align: center;
+  color: #C8C8C8;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.number-circle-current {
+  border-color: #3C3C77;
+  color: #3C3C77;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.number-container > img {
+  margin-right: 5px;
+}
+
+.number-circle > span {
+  position: relative;
+  bottom: 2px;
+}
+
+.details-container {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.details-title {
+  color: #3C3C77;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  display: flex;
+  margin-bottom: 20px; 
+}
+.input-box > div {
+  width: 100%;
+}
+
+.input-box > :first-child {
+  margin-right: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-container > :first-child {
+  width: 100%;
+}
+
+.form-container textarea {
+  width: 100%;
+}
+
+input[type="text-box"], textarea, input[type="text"], select {
+  border: 1.5px solid #ccc;
+  padding: 20px 15px 15px 20px;
+  border-radius: 3px;
+}
+.about-company {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.company-details-labels {
+  padding: 20px;
+}
+
+.text-box {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #161620;
+}
+
+select {
+  width: 350px;
+  height: 45px;
+  font-size: 16px;
+  font-family: inherit;
+  color: #555;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+
+.select-with-labels {
+  padding: 30px;
+}
+
+.benefits-details {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 400px;
+
+}
+
+.radios-with-labels {
+  padding: 35px;
+
+}
+
+.insurance {
+  border: 1px solid #ccc;
+  padding: 20px 15px 15px 20px;
+}
+
+
+.dispatcher {
+  border: 1px solid #ccc;
+  padding: 20px 15px 15px 20px;
+
+}
+
+.state-city-select {
+  display: flex;
+
+}
+
+.logo-container {
+  width: 800px;
+  height: 205px;
+  margin-left: 20px;
+  background: #E5E4F5;
+  color: black;
+  border: dashed gray;
+  border-width: medium;
+  display: flex;
+  justify-content: center;
+}
+
+.upload-logo {
+  font-family: inherit;
+  margin-top: 50px;
+}
+
+.upload-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.reccommended-size {
+  font-family: inherit;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.button-upload {
+  width: 208px;
+  height: 44px;
+  margin-top: 10px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #3C3C77;
+  border-radius: 8px;
+  border: none;
+}
+
+.continue-button {
+  margin: 25px 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-continue {
+  width: 208px;
+  height: 44px;
+  color: #3C3C77;
+  font-size: 15px;
+  font-weight: 500;
+  background: #E5E4F5;
+  border-radius: 8px;
+  border: none;
+}
+
+
 /* Footer styles */
 footer {
   background: linear-gradient(95deg, #3C3C77 0%, #4F4F9B 100%);
   color: #fff;
-  width: 100vw !important;
+  width: 100%;
 }
 
 .footer-body {

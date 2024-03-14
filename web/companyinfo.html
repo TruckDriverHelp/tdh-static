@@ -4,59 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/html/css/stylesheet.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>Your Webpage Title</title>
 </head>
 
 <body>
-    <header>
-        <div class="nav">
-            <img src="/html/assets/logo.png" alt="Logo" class="nav-logo">
-            <button class="categories-btn"><img width="20" height="20"
-                    src="https://img.icons8.com/material-rounded/24/3c3c77/grid-2.png" alt="grid-2" class="grid" />
-                Categories</button>
+    <nav class="nav">
+        <div class="nav-container">
+            <img src="assets/logo.png" alt="Logo" class="nav-logo">
+            <button class="categories-btn"><img width="20" height="20" src="assets/icons/grid-dashboard-02.svg" alt="grid-2" class="grid"/>Categories</button>
             <input type="text" id="search-box" class="search-box" placeholder="Search Jobs, Services or Products">
-            <select id="select-resources" class="select-resources">Resources
+            <select id="nav-resources-select" class="select">Resources
                 <option value="">Resources</option>
             </select>
             <button class="login-btn">Login</button>
             <button class="signup-btn">Sign Up</button>
-            <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/3c3c77/globe--v1.png"
-                alt="globe--v1" class="globe" />
-            <hr>
+            <!-- <img width="24" height="24" src="assets/icons/translate.svg" alt="Select a language" class="lang" /> -->
+            <img  width="24" height="24" src="assets/icons/translate.svg"  class="lang"/>
         </div>
-    </header>
+    </nav>
 
-    <div class="go-back">
-        <a href="back" class="back"><img width="16" height="16" src="https://img.icons8.com/small/16/3c3c77/long-arrow-left.png" alt="long-arrow-left" class="arrow"/>Go back</a>
-        <img width="14" height="14" src="https://img.icons8.com/material-rounded/24/cccccc/full-stop.png" alt="full-stop"/>
-        <img width="34" height="34" src="https://img.icons8.com/glyph-neue/64/3c3c77/1-circle.png" alt="1-circle"/>
-        <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/cccccc/horizontal-line.png" alt="horizontal-line"/>
-        <img width="34" height="34" src="https://img.icons8.com/glyph-neue/64/cccccc/2-circle.png" alt="2-circle"/>
-        <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/cccccc/horizontal-line.png" alt="horizontal-line"/>
-        <img width="34" height="34" src="https://img.icons8.com/glyph-neue/64/cccccc/3-circle.png" alt="3-circle"/>
+    <div class="container main-container-top">
+        <div class="flex flex-align-center go-back-container">
+            <img width="20" height="20" src="assets/icons/arrow-left.svg" alt="long-arrow-left" class="arrow"/>
+            <a href="back" class="back">Back</a>
+        </div>
+        <span class="dot"></span>
+        <div class="flex">
+            <div class="flex number-container">
+                <div  class="number-circle number-circle-current">
+                    <span>1</span>
+                </div>
+                <img  width="16" height="16" src="assets/icons/minus-default.svg"/>
+            </div>
+            <div class="flex number-container">
+                <div  class="number-circle">
+                    <span>2</span>
+                </div>
+                <img  width="16" height="16" src="assets/icons/minus-default.svg"/>
+            </div>
+            <div class="flex number-container">
+                <div  class="number-circle">
+                    <span>3</span>
+                </div>
+            </div>
+        </div>
     </div>
     
     <div class="check fas fa-check"></div>
-    <div class="details-container">
+    <div class="details-container container bg-white">
         <p class="details-title">Step 1 - Company information</p>
         <div class="input-box">
-            <div class="inputs-with-labels">
+            <div>
                 <label for="company-name" class="title">Company Name</label>
                 <input type="text-box" placeholder="" id="company-name" class="text-box" required>
             </div>
-            <div class="inputs-with-labels">
+            <div>
                 <label for="phone-number" class="title">Phone Number</label>
                 <input type="text-box" placeholder="" id="phone-number" class="text-box" required>
             </div>
         </div>
 
-        <div class="about-company">
-            <div class="company-details-labels">
+        <div class="form-container">
+            <div>
                 <label for="about-company" class="title">About your company</label>
-                <textarea id="about-company" class="about-company" name="about-company" rows="5" cols="95" required>
-
+                <textarea id="about-company" class="about-company" name="about-company" required>
                 </textarea>
             </div>
         </div>
@@ -64,15 +77,19 @@
         <div class="state-city-select">
 
             <div class="select-with-labels">
-                <span class="title">State</span>
-                <select id="state">
+                <label class="title" for="select-state">State</label>
+                <select name="select-state" id="select-state">
                     <option>Select State</option>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
                 </select>
             </div>
             <div class="select-with-labels">
-                <span class="title">City</span>
-                <select id="city">
-                    <option>Select City</option>
+                <label class="title" for="select-city">City</label>
+                <select name="select-city" id="select-city">
+                    <option value="">Select City</option>
+                    <option value="option 1">Option 1</option>
+                    <option value="option 2">Option 2</option>
                 </select>
             </div>
         </div>
