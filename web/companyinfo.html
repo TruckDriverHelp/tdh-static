@@ -54,73 +54,81 @@
     
     <div class="check fas fa-check"></div>
     <div class="details-container container bg-white">
-        <p class="details-title">Step 1 - Company information</p>
-        <div class="input-box">
-            <div>
-                <label for="company-name" class="title">Company Name</label>
-                <input type="text-box" placeholder="" id="company-name" class="text-box" required>
+        <span class="form-title">Step 1 - Company information</span>
+        <section class="form-section">
+            <div class="form-container">
+                <div>
+                    <label for="company-name" class="title">Company Name</label>
+                    <input type="text-box" placeholder="" id="company-name" class="text-box" required>
+                </div>
+                <div>
+                    <label for="phone-number" class="title">Phone Number</label>
+                    <input type="text-box" placeholder="" id="phone-number" class="text-box" required>
+                </div>
             </div>
-            <div>
-                <label for="phone-number" class="title">Phone Number</label>
-                <input type="text-box" placeholder="" id="phone-number" class="text-box" required>
-            </div>
-        </div>
 
-        <div class="form-container">
-            <div>
-                <label for="about-company" class="title">About your company</label>
-                <textarea id="about-company" class="about-company" name="about-company" required>
-                </textarea>
+            <div class="textbox-container">
+                <div>
+                    <label for="about-company" class="title">About your company</label>
+                    <textarea id="about-company" class="about-company" name="about-company" required>
+                    </textarea>
+                </div>
             </div>
-        </div>
-        <p class="details-title">HQ Location</p>
-        <div class="state-city-select">
-
-            <div class="select-with-labels">
-                <label class="title" for="select-state">State</label>
-                <select name="select-state" id="select-state">
-                    <option>Select State</option>
-                    <option>Option 1</option>
-                    <option>Option 2</option>
-                </select>
+        </section>
+        <section class="form-section">
+            <span class="form-title">HQ Location</span>
+            <div class="form-container">
+                <div>
+                    <label class="title" for="select-state">State</label>
+                    <select name="select-state" id="select-state">
+                        <option>Select State</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="title" for="select-city">City</label>
+                    <select name="select-city" id="select-city">
+                        <option value="">Select City</option>
+                        <option value="option 1">Option 1</option>
+                        <option value="option 2">Option 2</option>
+                    </select>
+                </div>
             </div>
-            <div class="select-with-labels">
-                <label class="title" for="select-city">City</label>
-                <select name="select-city" id="select-city">
-                    <option value="">Select City</option>
-                    <option value="option 1">Option 1</option>
-                    <option value="option 2">Option 2</option>
-                </select>
+            <div class="radio-label-container">
+                <span class="benefits-title">Benefits</span>
+                <div class="radio-label-buttons">
+                    <div class="radio-with-label" for="health-insurance">
+                        <label class="radio-label">
+                            <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/737373/hospital-3.png" alt="hospital-3" class="hospital"/>
+                            <span>Health Insurance</span>
+                            <input type="radio" id="health-insurance" name="benefits">
+                        </label>
+                    </div>
+                    <div class="radio-with-label">
+                        <label class="radio-label" for="around-clock">
+                            <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/737373/clock.png" alt="clock" class="clock"/>
+                            <span>Around the clock dispatch</span>
+                            <input type="radio" id="around-clock" name="benefits">
+                        </label>
+                    </div>
+                </div>
             </div>
-        </div>
-        <p class="details-title">Benefits</p>
-        <div class="benefits-details">
-            <div class="radios-with-labels">
-                <label class="insurance"><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/737373/hospital-3.png" alt="hospital-3" clas="hospital"/> Health Insurance
-                    <input type="radio" id="benefits" name="dot-1">
-                </label>
+        </section>
+        <section>
+            <p class="form-title">Company logo</p>
+            <div class="logo-upload-container">
+                <div class="upload-details">
+                    <span>Upload your company logo</span>
+                    <span>recommended size in px (512 x 512)</span>
+                    <button class="button-upload">Upload</button>
+                </div>
             </div>
-            <div class="radios-with-labels">
-                <label class="dispatcher"><img width="24" height="24" src="https://img.icons8.com/material-sharp/24/737373/clock.png" alt="clock" class="clock"/>Around the clock dispatch
-                    <input type="radio" id="benefit" name="dot-2">
-                </label>
-            </div>
-        </div>
-        <p class="details-title"> Company logo </p>
-
-        <div class="logo-container">
-            <div class="upload-details">
-                <span class="upload-logo">Upload your company logo</span>
-                <br>
-                <span class="reccommended-size">recommended size in px (512 x 512)</span>
-                <button class="button-upload">Upload</button>
-            </div>
-        </div>
+        </section>
         <hr>
         <div class="continue-button">
             <button class="button-continue">Continue</button>
         </div>
-
     </div>
 
 
